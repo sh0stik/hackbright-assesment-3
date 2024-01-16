@@ -1,25 +1,28 @@
-
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Homepage</title>
 	<link href="styles.css" rel="stylesheet">
 
 </head>
+
 <body>
-	<nav>
+	<nav class="main-nav">
 		<ol>
-	        <li class="crumb"><a href="./home.html">Home</a></li>
-	        <li class="crumb"><a href="./profile.html">Profile</a></li>
-	        <li class="crumb"><a href="./about.html">About</a></li>
-	    </ol>
+			<li class="crumb"><a href="./home.html">Home</a></li>
+			<li class="crumb"><a href="./profile.html">Profile</a></li>
+			<li class="crumb"><a href="./about.html">About</a></li>
+			<li class="crumb"><a href="./neighborhood.html">Neighborhood</a></li>
+		</ol>
 	</nav>
 
 	<content>
-		 <p>Hello World</p>
+		<p>Hello World</p>
 		<!-- insert hello world here -->
 
-		<img id="homeImage" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHqDYBnN4UhI5ItWn993BlTOfuucvLNUj0WQ&usqp=CAU">
+		<img id="homeImage"
+			src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHqDYBnN4UhI5ItWn993BlTOfuucvLNUj0WQ&usqp=CAU">
 
 		<p>Welcome! We're excited you're here. Enjoy our site with cute puppy vibes! 🐾</p>
 		<ul>
@@ -30,21 +33,21 @@
 
 		<h2>Contact Us</h2>
 		<form id="contact">
-			Your name:
-			<input type="text">
+			<label for="name">Your name:</label>
+			<input id="name" type="text">
+			<br>
+			<label for="message">Message:</label>
+			<input id="message" type="textarea">
 
-			Message:
-			<input type="textarea">
+			<input class="submit" type="submit">
 
-			<input type="submit">
-
-			<form id="sourceOfDiscovery">
-				<input type="checkbox" name="sourceOfDiscovery" id="google">
-				<label for="google">Google</label>
-				<input type="checkbox" name="sourceOfDiscovery" id="friend">
-				<label for="friend">A Friend</label>
-				<input type="checkbox" name="sourceOfDiscovery" id="other">
-				<label for="other">Other</label>
+			<form class="source-of-discovery">
+				<input class="source-of-discovery" type="checkbox" name="sourceOfDiscovery" id="google">
+				<label class="source-of-discovery" for="google">Google</label>
+				<input class="source-of-discovery" type="checkbox" name="sourceOfDiscovery" id="friend">
+				<label class="source-of-discovery" for="friend">A Friend</label>
+				<input class="source-of-discovery" type="checkbox" name="sourceOfDiscovery" id="other">
+				<label class="source-of-discovery" for="other">Other</label>
 			</form>
 		</form>
 
@@ -54,4 +57,5 @@
 	<script src="index.js"></script>
 
 </body>
+
 </html>

@@ -8,25 +8,21 @@
 </head>
 
 <body>
-    <nav>
+    <nav class="main-nav">
         <ol>
             <li class="crumb"><a href="./home.html">Home</a></li>
             <li class="crumb"><a href="./profile.html">Profile</a></li>
             <li class="crumb"><a href="./about.html">About</a></li>
+            <li class="crumb"><a href="./neighborhood.html">Neighborhood</a></li>
         </ol>
     </nav>
 
-    
+
     <content>
         <header>Daria's profile</header>
         <section>
             <p>Hello, my name is Daria and I'm exited to welcome you on the my profile page.
                 <br>Here you may know me a little more!
-            <nav>
-                <a href="#skills">Skills</a>
-                <a href="#interests">Interests</a>
-                <a href="#goals">Career goals</a>
-            </nav>
             </p>
             <div class="skills">
                 <h3>Skills</h3>
@@ -64,41 +60,18 @@
                 <label for="message">Message:</label>
                 <input type="text" name="message" id="message">
 
-                <button type="submit">Submit</button>
+                <input class="submit" type="submit">
             </form>
         </section>
     </content>
 
-    <table>
-        <thead>
-            <tr>
-                <th>A little more about me</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><button id="color">My Favorite Color</button></td>
-                <td><button id="place">My Favorite Place</button></td>
-                <td><button id="ritual">My Favorite Ritual</button></td>
-            </tr>
-            <tr>
-                <td><img id="favColor"
-                        src="https://media.npr.org/assets/img/2022/12/02/dnmardesich_a_macro_photography_of_metallic_magenta_iridescent__3780f5e2-dabb-4373-bc10-ed18f5574e90-db0cbef0e300d00390be8f9e8371d1967b4fde4d-s1200.webp">
-                </td>
-                <td><img id="favPlace"
-                        src="https://static.euronews.com/articles/stories/05/91/96/60/1200x675_cmsv2_52eda0a1-f5ab-571a-9703-35209c696d9c-5919660.jpg">
-                </td>
-                <td><img id="favRitual"
-                        src="https://alar.my/contents/wp-content/uploads/2023/04/diana-polekhina-nIOKgMYLtEA-unsplash-1024x707.jpg">
-                </td>
-            </tr>
-        </tbody>
-    </table>
+    <button class="fav-btn" id="color">My Favorite Color</button>
+    <button class="fav-btn" id="place">My Favorite Place</button>
+    <button class="fav-btn" id="ritual">My Favorite Ritual</button>
     <br>
     <br>
 
-    <a href="./home.html">
-        << Back </a>
+    <a href="./home.html"> << Back </a>
 
             <script src="profile.js"></script>
 </body>

@@ -1,10 +1,10 @@
 body {
-  background: #ddd;
-  margin: 1rem;
-  padding: 1rem;
-  max-width: 500px;
-  margin: 2rem auto;
-  font-family: "Open Sans", sans-serif;
+	background: #ddd;
+	margin: 1rem;
+	padding: 1rem;
+	max-width: 500px;
+	margin: 2rem auto;
+	font-family: "Open Sans", sans-serif;
 }
 
 nav {
@@ -36,4 +36,36 @@ input {
 
 img {
 	max-width: 300px;
+	max-height: 300px;
+}
+
+.submit,
+.fav-btn {
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.fav-btn {
+	background-color: yellow;
+	color: black;
+}
+
+
+/* 
+#contact label {
+	display: flex;
+	align-items: center;
+	margin-bottom: 5px;
+} */
+
+.source-of-discovery {
+	display: inline-block;
+	margin-right: 10px;
+}
+header{
+	font-size: 32px;
+	font-weight: bold;
 }
